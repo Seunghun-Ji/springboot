@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.*;
 @SpringBootApplication
 public class MyprojectApplication {
 	
-	@RequestMapping("/")
+	//주소에서 localhost:port 이후에 입력된 내용에 맞게 출력
+	@RequestMapping("/demo")
 	String home() {
 		return "Hello World!!!";
 	}
